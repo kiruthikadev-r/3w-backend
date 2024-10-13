@@ -16,7 +16,6 @@ const app = express();
 
 // app.use(cors());
 
-const allowedOrigins = ['*']; 
 
 app.use(cors({
     origin: '*', 
