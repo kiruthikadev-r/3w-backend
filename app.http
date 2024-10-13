@@ -1,0 +1,57 @@
+###
+POST http://localhost:5000/api/upload
+Content-Type: application/json
+
+{
+    "name":"kiruthika",
+    "handle":"kiruthi_2527",
+    "images":"https://www.livemint.com/lm-img/img/2024/06/18/600x338/laptoppppp_cleanup_1718705991705_1718706003867.PNG"
+}
+
+###
+GET http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "name":"kiruthika",
+    "handle":"kiruthi_2527",
+    "images":"https://www.livemint.com/lm-img/img/2024/06/18/600x338/laptoppppp_cleanup_1718705991705_1718706003867.PNG"
+}
+
+###
+POST http://localhost:5000/api/upload
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "handle": "@john_doe",
+  "imageUrls": [
+    "https://res.cloudinary.com/your-cloud-name/image/upload/v1600000000/sample1.jpg",
+    "https://res.cloudinary.com/your-cloud-name/image/upload/v1600000000/sample2.jpg",
+    "https://res.cloudinary.com/your-cloud-name/image/upload/v1600000000/sample3.jpg"
+  ]
+}
+
+###
+POST http://localhost:5000/api/admin/register
+Content-Type: application/json
+
+{
+    "name":"kiruthika",
+    "email":"kiruthi_2527",
+    "password":"checking",
+    "role":"admin"
+}
+
+
+###
+POST http://localhost:5000/api/admin/login
+Content-Type: application/json
+
+{
+    "email":"kiruthi_2527",
+    "password":"checking",
+}
+
+
+
